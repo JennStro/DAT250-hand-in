@@ -19,5 +19,12 @@ to delete the old one. I ran `rm '/usr/local/bin/git'` and afterwards `brew link
 overwrite any conflicting files. Then I opened a new terminal and ran `$ git --version` to check that I got the new version, and
 I did.
 
+#### Gitignore 
+When making the repository it also made a .gitignore file. Thinking I then was safe, I pushed what I 
+had written so far to the repo. But then gitignore files like .xml and .iml also was pushed. I found out that I could use 
+`$ git rm --cached path/to/file` to remove files from version control but keep them locally. So I did that, and later found
+out that I had two gitignore files: one "proper one" with the correct file-endings to be ignored and one which only had a few. 
+So I removed the last one and ensured that all the file-endings were included in the remaining file. Then I pushed my changes, 
+and it all sorted out. 
 
 
