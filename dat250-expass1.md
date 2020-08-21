@@ -27,4 +27,7 @@ out that I had two gitignore files: one "proper one" with the correct file-endin
 So I removed the last one and ensured that all the file-endings were included in the remaining file. Then I pushed my changes, 
 and it all sorted out. 
 
+#### Heroku 
+I followed the guide to deploy an app with Heroku and deployed the example app. This guide required Java 8 so I switched 
+Java version using SDKman for this session. 
 
