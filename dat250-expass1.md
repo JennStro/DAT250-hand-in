@@ -32,5 +32,7 @@ I followed the guide to deploy an app with Heroku and deployed the example app. 
 Java 8 using SDKman for this session. I did not have any issues with doing this guide. I managed to run the app both on 
 Herokus servers (`heroku open`) and locally (`heroku local web`). Since this was a Maven project I made sure 
  to install all dependencies first by running `mvn clean install`. I also successfully made a new endpoint `/hello` to 
- show the equation (as shown in the guide), and how to link a database to a Heroku app.  
+ show the equation (as shown in the guide), and how to link a database to a Heroku app. When deploying this app I also 
+ checked that my development environment worked as it should, I had no problems using Intellij, git, Heroku CLI or Maven 
+ for this guide.  
 
