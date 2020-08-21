@@ -33,6 +33,6 @@ Java 8 using SDKman for this session. I did not have any issues with doing this 
 Herokus servers (`heroku open`) and locally (`heroku local web`). Since this was a Maven project I made sure 
  to install all dependencies first by running `mvn clean install`. I also successfully made a new endpoint `/hello` to 
  show the equation (as shown in the guide), and how to link a database to a Heroku app. When deploying this app I also 
- checked that my development environment worked as it should, I had no problems using Intellij, git, Heroku CLI or Maven 
+ checked that my development environment worked as it should, I had no problems using Intellij, JDK, git, Heroku CLI or Maven 
  for this guide.  
 
