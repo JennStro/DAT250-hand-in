@@ -28,6 +28,9 @@ So I removed the last one and ensured that all the file-endings were included in
 and it all sorted out. 
 
 #### Heroku 
-I followed the guide to deploy an app with Heroku and deployed the example app. This guide required Java 8 so I switched 
-Java version using SDKman for this session. 
+I followed the guide to deploy an app with Heroku and deployed the example app. This guide required Java 8 so I installed 
+Java 8 using SDKman for this session. I did not have any issues with doing this guide. I managed to run the app both on 
+Herokus servers (`heroku open`) and locally (`heroku local web`). Since this was a Maven project I made sure 
+ to install all dependencies first by running `mvn clean install`. I also successfully made a new endpoint `/hello` to 
+ show the equation (as shown in the guide), and how to link a database to a Heroku app.  
 
