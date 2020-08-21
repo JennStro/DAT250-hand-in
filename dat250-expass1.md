@@ -1,6 +1,6 @@
 ### Report for expass1
 
-To do this experiment I would need an IDE, JDK, git, Maven and a Heroku account. I am using SDKman to managing my JDK versions,
+To do this experiment I would need an IDE, JDK, git, Maven, Heroku CLI and a Heroku account. I am using SDKman to managing my JDK versions,
 so I downloaded JDK14-Open using SDKman. As an IDE I already use Intellj and want to use this for the experiment. 
 I also have Maven installed, but runned `$ mvn -v` to check that I had the latest version. 
 
@@ -28,10 +28,13 @@ and it all sorted out.
 This guide required Java 8 so I installed 
 it using SDKman for this session. By running `$sdk list java` you get the available JDK versions, and by running `$ sdk use java 8.0.265.j9-adpt` 
 I could use java 8 in the session I was in without changing the default JDK. I did not have any issues with doing this guide, 
-even though I had to change JDK. I followed the guide to deploy an app with Heroku and deployed the example app given in the guide.  I managed to run the app both on 
-Herokus servers (`$ heroku open`) and locally (`$ heroku local web`). Since this was a Maven project I made sure 
- to install all dependencies before running it locally by running `$ mvn clean install`. I also successfully made a new endpoint `/hello` to 
- show the equation (as shown in the guide), and got familiar with how to link a database to a Heroku app. 
+even though I had to change JDK. I downloaded the Heroku CLI using homebrew `$ brew install heroku/brew/heroku` without any problems. 
+Then I cloned the example project using `$ git clone`, and created a Heroku app in the root folder of the project using `$ heroku create`. 
+Now I could push the project to Herokus remote git repo using `$ git push heroku master`. I followed the guide every step afterwards,
+and managed to run the app both on Herokus servers (`$ heroku open`) and locally (`$ heroku local web`). Since this was a 
+Maven project I made sure to install all dependencies before running it locally by running `$ mvn clean install`. I also 
+successfully made a new endpoint `/hello` to show the equation (as shown in the guide), and got familiar with how to link a 
+database to a Heroku app. 
  
  
  
