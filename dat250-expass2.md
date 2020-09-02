@@ -18,7 +18,14 @@ saying that the `shema 'TEST' does not exist`. After some looking at the guide o
 the command for EclipseLink to create the database was commented out in my project. So I uncommented it to create the DB, 
 ran the app and commented it out again so it would not create a new db each time. 
 
+#### Monitoring database 
+I installed the plugin DBNavigator in intellij and then added a custom DB by opening DB Browser and pressing the "+" sign.
+Then I configured the connection giving the url, username, password and specify the driver. I needed to give the url `jdbc:derby:` 
+followed by the full path name to the database in order to make it work. I got the username and password from the persistance.xml file, 
+and the driver library from `/usr/local/opt/Apache/db-derby-10.15.2.0-bin/lib`, and then I chose the "embedded driver" in the drop-down. 
+When pressing "Test connection", it succeeded, and I can now view the DB in intellij. 
 
+ 
  
 
  
