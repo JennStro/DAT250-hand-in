@@ -31,7 +31,8 @@ DB browser (explained in "Viewing database in Intellij" later). Having added a p
 database, I made the other entities as well and defined their relations and their tables. I also realized that when you
  have a child you need to tell JPA to persist this as well when the parent is persisted using `(cascade = CascadeType.PERSIST)`. 
  I was a bit unsure about the relation from Bank to Creditcard, but landed on that it is the "many" side that
- holds the foreign key. 
+ holds the foreign key. Also I added removal where it is possible. For example, when a bank is deleted you want to delete the 
+ cards with it, but not the other way around.
  
 
 #### Viewing database in Intellij
