@@ -11,14 +11,19 @@ to `$DERBY_INSTALL`, and hence the `$PATHNAME` was wrong. I fixed the variable, 
 output. 
 
 #### Trying out an application   
-I started out using the JPAExample given, and after some errors about "not being able to create the database", I found
+In Experiment 1 I used the JPAExample given, and after some errors about "not being able to create the database", I found
 out that I needed to change the `ij` command given in `persistance.xml` creating the database, to 
 `value="jdbc:derby:testDB;create=true"`. Then when I tried to access the database using the application, I got a new error 
 saying that the `shema 'TEST' does not exist`. After some looking at the guide on how to set up a project with JPA, I saw that
 the command for EclipseLink to create the database was commented out in my project. So I uncommented it to create the DB, 
 ran the app and commented it out again so it would not create a new db each time. 
 
-#### Monitoring database 
+Being a bit more comfortable working with JPA I started from scratch in Experiment 2. I started by creating a Maven project 
+and installed all dependencies. After getting some error messages trying to run the app I found out that I also needed to install the `derby.shared`
+package, so I added this to dependencies. I also got an error `Language 5 is not supported` or similar, and found out that 
+I needed to specify 
+
+#### Viewing database 
 I installed the plugin DBNavigator in intellij and then added a custom DB by opening DB Browser and pressing the "+" sign.
 Then I configured the connection giving the url, username, password and specify the driver. I needed to give the url `jdbc:derby:` 
 followed by the full path name to the database in order to make it work. I got the username and password from the persistance.xml file, 
@@ -91,9 +96,13 @@ I created a factory for filling the db with some data to see how it worked. This
 
 #### Links:   
 
+I only did some minor changes to the already given JPA example to do Experiment 1, 
+but uploaded the repo anyway:   
 Experiment 1:  
 https://github.com/JennStro/DAT250-Task-2-Experiment-1   
 
+I wanted to do Experiment 2 "from scratch" now that I felt a bit more comfortable using JPA and 
+connecting to the db.    
 Experiment 2:    
 https://github.com/JennStro/DAT250-tech-experiment-2
  
