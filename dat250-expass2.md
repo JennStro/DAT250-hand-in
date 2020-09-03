@@ -28,11 +28,12 @@ I needed to specify compiler and target properties in maven:
 
 After this I ran the application without any errors, and was able to connect to the database for Intellij as well, using 
 DB browser (explained in "Viewing database in Intellij" later). Having added a person successfully to the 
-database, I made the other entities as well and defined their relations and their tables. I also realized that when you
+database, I made the other entities as well and defined their relations and their columns. I also realized that when you
  have a child you need to tell JPA to persist this as well when the parent is persisted using `(cascade = CascadeType.PERSIST)`. 
  I was a bit unsure about the relation from Bank to Creditcard, but landed on that it is the "many" side that
  holds the foreign key. Also I added removal where it is possible. For example, when a bank is deleted you want to delete the 
- cards with it, but not the other way around.
+ cards with it, but not the other way around. Also I created a factory for creating random object to put in the database so that I could
+ see how it worked. See pictures further down. 
  
 
 #### Viewing database in Intellij
