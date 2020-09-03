@@ -88,6 +88,14 @@ I created a factory for filling the db with some data to see how it worked. This
 `select * from PINCODE`     
 ![Pin_query](Screenshots/Pincode_Query.png?raw=true)  
 
+
+#### Links:   
+
+Experiment 1:  
+https://github.com/JennStro/DAT250-Task-2-Experiment-1   
+
+Experiment 2:    
+https://github.com/JennStro/DAT250-tech-experiment-2
  
  
 
