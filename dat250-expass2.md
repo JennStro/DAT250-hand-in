@@ -41,22 +41,57 @@ with the EclipseLink in persistance.xml, and it worked fine afterwards.
 These are the tables that were created:   
 ![Tables](Screenshots/Tables.png?raw=true)   
 
+Table address:   
 ![Address](Screenshots/Address.png?raw=true)     
 
+Table Bank:   
 ![Bank](Screenshots/Bank.png?raw=true)        
 
+Table Bank_Credit:   
 ![Bank_Credit](Screenshots/Bank_Credit_cards.png?raw=true)    
 
+Table Credit_Card:   
 ![Credit_card](Screenshots/CreditCard.png?raw=true)       
 
+Table Person:   
 ![Person](Screenshots/Person.png?raw=true)  
 
+Table Person_address:   
 ![Person_address](Screenshots/Person_address.png?raw=true)     
 
+Table Person_Credit_Card:   
 ![Person_credit](Screenshots/Person_Credit_card.png?raw=true)   
 
-![Pincode](Screenshots/Pincode.png?raw=true)  
+Table Pincode:   
+![Pincode](Screenshots/Pincode.png?raw=true)         
 
+
+I created a factory for filling the db with some data to see how it worked. This is the result: 
+
+`select * from ADDRESS`    
+![Address_query](Screenshots/Address_query.png?raw=true)      
+
+`select * from BANK_CREDIT_CARD`
+![Bank_credit_query](Screenshots/Bank_creditcard_Query.png?raw=true)
+
+`select * from BANK`
+![Bank_query](Screenshots/Bank_Query.png?raw=true)
+
+`select * from CREDITCARD`   
+![Credit_query](Screenshots/Creditcard_query.png?raw=true)  
+
+`select * from PERSON_ADDRESS`   
+![Person_Address_query](Screenshots/Person_Address_Query.png?raw=true)  
+
+`select * from PERSON_CREDIT_CARD`   
+![Person_Credit_query](Screenshots/Person_Creditcard_Query.png?raw=true)  
+
+
+`select * from PERSON`   
+![Person_query](Screenshots/Person_query.png?raw=true)  
+
+`select * from PINCODE`   
+![Pin_query](Screenshots/Pincode_Query.png?raw=true)  
 
  
  
