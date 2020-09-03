@@ -25,6 +25,13 @@ followed by the full path name to the database in order to make it work. I got t
 and the driver library from `/usr/local/opt/Apache/db-derby-10.15.2.0-bin/lib`, and then I chose the "embedded driver" in the drop-down. 
 When pressing "Test connection", it succeeded, and I can now view the DB in intellij. 
 
+I had some problems updating this DB Browser when I added data to the database. The data was retrieved from the db correctly 
+(was printed out when queried from db), but did not display in the DB browser. I eventually figured out that when updating 
+I needed to disconnect from the database and then connect again in DB browser, and sometimes I even had to restart Intellij and
+disconnect/connect in order to update the DB browser.
+
+Sometimes when I tried to run main again to add more data to db I got an exception:  
+
  
  
 
