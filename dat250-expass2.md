@@ -31,6 +31,32 @@ I needed to disconnect from the database and then connect again in DB browser, a
 disconnect/connect in order to update the DB browser.
 
 Sometimes when I tried to run main again to add more data to db I got an exception:  
+`Failed to start database 'bankdb' with classloader ... ` saying that someone else probably had booted it before. I guess 
+this happened because I tried to 'restart database drivers' from DB browser in an attempt to update the DB browser and display
+the correct values, because it happened after I had done it. When this error happened I deleted the db and created a new schema 
+with the EclipseLink in persistance.xml, and it worked fine afterwards. 
+
+#### Results 
+
+These are the tables that were created:   
+![Tables](Screenshots/Tables.png?raw=true)   
+
+![Address](Screenshots/Address.png?raw=true)     
+
+![Bank](Screenshots/Bank.png?raw=true)        
+
+![Bank_Credit](Screenshots/Bank_Credit_cards.png?raw=true)    
+
+![Credit_card](Screenshots/CreditCard.png?raw=true)       
+
+![Person](Screenshots/Person.png?raw=true)  
+
+![Person_address](Screenshots/Person_address.png?raw=true)     
+
+![Person_credit](Screenshots/Person_Credit_card.png?raw=true)   
+
+![Pincode](Screenshots/Pincode.png?raw=true)  
+
 
  
  
