@@ -19,11 +19,19 @@ the command for EclipseLink to create the database was commented out in my proje
 ran the app and commented it out again so it would not create a new db each time. 
 
 Being a bit more comfortable working with JPA I started from scratch in Experiment 2. I started by creating a Maven project 
-and installed all dependencies. After getting some error messages trying to run the app I found out that I also needed to install the `derby.shared`
-package, so I added this to dependencies. I also got an error `Language 5 is not supported` or similar, and found out that 
-I needed to specify 
+and installed all dependencies. I started out with a simple entity "Person" and tried to add i to the database in the main method. 
+I then configured the persistance.xml file and ran the app. After getting some error messages I found out that I also needed to install the `derby.shared`
+package, so I added this to dependencies. After this I got an error `Language 5 is not supported` or similar, and found out that 
+I needed to specify compiler and target properties in maven:    
+`<properties> <maven.compiler.source>1.9</maven.compiler.source> <maven.compiler.target>1.9</maven.compiler.target>
+</properties>`   
 
-#### Viewing database 
+After this I ran the application without any errors, and was able to connect to the database for Intellij as well, using 
+DB browser (explained in "Viewing database in Intellij" later). Having added a person successfully to the 
+database, I made the other entities as well and defined their relations. I also realized that when you
+ have a child you need to tell JPA to persist this as well using when the parent is persisted ()
+
+#### Viewing database in Intellij
 I installed the plugin DBNavigator in intellij and then added a custom DB by opening DB Browser and pressing the "+" sign.
 Then I configured the connection giving the url, username, password and specify the driver. I needed to give the url `jdbc:derby:` 
 followed by the full path name to the database in order to make it work. I got the username and password from the persistance.xml file, 
