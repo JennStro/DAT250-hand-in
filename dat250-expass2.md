@@ -46,12 +46,10 @@ Table address:
 
 Table Bank:   
 ![Bank](Screenshots/Bank.png?raw=true)        
-
-Table Bank_Credit:   
-![Bank_Credit](Screenshots/Bank_Credit_cards.png?raw=true)    
+  
 
 Table Credit_Card:   
-![Credit_card](Screenshots/CreditCard.png?raw=true)       
+![Credit_card](Screenshots/creditcard.png?raw=true)       
 
 Table Person:   
 ![Person](Screenshots/Person.png?raw=true)  
@@ -71,14 +69,11 @@ I created a factory for filling the db with some data to see how it worked. This
 `select * from ADDRESS`    
 ![Address_query](Screenshots/Address_query.png?raw=true)      
 
-`select * from BANK_CREDIT_CARD`   
-![Bank_credit_query](Screenshots/Bank_creditcard_Query.png?raw=true)
-
 `select * from BANK`   
 ![Bank_query](Screenshots/Bank_Query.png?raw=true)
 
 `select * from CREDITCARD`      
-![Credit_query](Screenshots/Creditcard_query.png?raw=true)  
+![Credit_query](Screenshots/Creditcard_Query.png?raw=true)  
 
 `select * from PERSON_ADDRESS`      
 ![Person_Address_query](Screenshots/Person_Address_Query.png?raw=true)  
