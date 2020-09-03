@@ -39,13 +39,13 @@ with the EclipseLink in persistance.xml, and it worked fine afterwards.
 #### Results 
 
 These are the tables that were created:   
-![Tables](Screenshots/Tables.png?raw=true)   
+![Tables](Screenshots/tables.png?raw=true)   
 
 Table address:   
 ![Address](Screenshots/Address.png?raw=true)     
 
 Table Bank:   
-![Bank](Screenshots/Bank.png?raw=true)        
+![Bank](Screenshots/bank.png?raw=true)        
   
 
 Table Credit_Card:   
@@ -70,10 +70,10 @@ I created a factory for filling the db with some data to see how it worked. This
 ![Address_query](Screenshots/Address_query.png?raw=true)      
 
 `select * from BANK`   
-![Bank_query](Screenshots/Bank_Query.png?raw=true)
+![Bank_query](Screenshots/Bank_query.png?raw=true)
 
 `select * from CREDITCARD`      
-![Credit_query](Screenshots/Creditcard_Query.png?raw=true)  
+![Credit_query](Screenshots/creditcard_query.png?raw=true)  
 
 `select * from PERSON_ADDRESS`      
 ![Person_Address_query](Screenshots/Person_Address_Query.png?raw=true)  
