@@ -71,26 +71,26 @@ I created a factory for filling the db with some data to see how it worked. This
 `select * from ADDRESS`    
 ![Address_query](Screenshots/Address_query.png?raw=true)      
 
-`select * from BANK_CREDIT_CARD`
+`select * from BANK_CREDIT_CARD`   
 ![Bank_credit_query](Screenshots/Bank_creditcard_Query.png?raw=true)
 
-`select * from BANK`
+`select * from BANK`   
 ![Bank_query](Screenshots/Bank_Query.png?raw=true)
 
-`select * from CREDITCARD`   
+`select * from CREDITCARD`      
 ![Credit_query](Screenshots/Creditcard_query.png?raw=true)  
 
-`select * from PERSON_ADDRESS`   
+`select * from PERSON_ADDRESS`      
 ![Person_Address_query](Screenshots/Person_Address_Query.png?raw=true)  
 
-`select * from PERSON_CREDIT_CARD`   
+`select * from PERSON_CREDIT_CARD`     
 ![Person_Credit_query](Screenshots/Person_Creditcard_Query.png?raw=true)  
 
 
-`select * from PERSON`   
+`select * from PERSON`     
 ![Person_query](Screenshots/Person_query.png?raw=true)  
 
-`select * from PINCODE`   
+`select * from PINCODE`     
 ![Pin_query](Screenshots/Pincode_Query.png?raw=true)  
 
  
