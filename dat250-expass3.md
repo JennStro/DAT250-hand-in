@@ -1,8 +1,8 @@
 ##### Installation and verifying   
 The installation and verifying went ok with no problems.   
+ ![VerifyMongoDb](Screenshots/VerifyMongoDb.png?raw=true)  
 
-Verifing   
-![VerifyMongoDb](Screenshots/VerifyMongoDb.png?raw=true)   
+#### Experiment 1    
  
 Insertion   
 ![InsertionMongoDb](Screenshots/InsertionMongoDb.png?raw=true)   
@@ -31,3 +31,17 @@ Bulking
 ![BulkReadyMonogDb](Screenshots/BulkReadyMonogDb.png?raw=true)   
    
 ![BulkWriteMongoDb](Screenshots/BulkWriteMongoDb.png?raw=true)   
+
+
+#### Experiment 2   
+
+Example 1   
+![Mapreduce1](Screenshots/MapReduce1.png?raw=true)   
+
+![MapReduce11](Screenshots/MapReduce11.png?raw=true)   
+
+Example 2   
+![MapReduce2](Screenshots/MapReduce2.png?raw=true)   
+
+My own map - reduce   
+![OwnReduce](Screenshots/MyOwnReduce.png?raw=true)   
