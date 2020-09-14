@@ -1,5 +1,5 @@
 ##### Installation and verifying   
-The installation and verifying went ok with no problems.   
+The installation and verifying went ok with no problems. The only thing was that I had to install gpg so that I could do the verification. But this was easily done with Homebrew.  
  ![VerifyMongoDb](Screenshots/VerifyMongoDb.png?raw=true)  
 
 #### Experiment 1    
