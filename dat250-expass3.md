@@ -43,5 +43,11 @@ Example 1
 Example 2   
 ![MapReduce2](Screenshots/MapReduce2.png?raw=true)   
 
-My own map - reduce   
-![OwnReduce](Screenshots/MyOwnReduce.png?raw=true)   
+#####My own map - reduce    
+I wanted to group the orders by date, to see if there are any specific date with more 
+orders than others. If we have many orders one day and very few the other day we may want to 
+know it so that we can figure out why and make adjustments. We can see that the day with most orders were at 
+20.03.2020 with 3 orders. Also we have three days with only one order, and two days with two orders. 
+
+![OwnReduce](Screenshots/MyOwnReduce.png?raw=true)     
+ 
