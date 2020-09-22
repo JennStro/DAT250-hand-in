@@ -6,4 +6,4 @@ When making my own application for Rest API I had some problems running the app 
 
 Other then that I did not have any particular issues. 
 
-![Repo for experiment 2](https://github.com/JennStro/Rest-API-for-TODO-items) 
+[Repo for experiment 2](https://github.com/JennStro/Rest-API-for-TODO-items)    
