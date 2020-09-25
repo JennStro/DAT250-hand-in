@@ -6,4 +6,6 @@ When making my own application for Rest API I had some problems running the app 
 
 Other then that I did not have any particular issues. 
 
+I chose to mock the database as a list, and use this as persistance because the focus was to create an API. Also because there is no particular business logic I did not create a service layer for this experiment. 
+
 [Repo for experiment 2](https://github.com/JennStro/Rest-API-for-TODO-items)    
