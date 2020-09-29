@@ -4,9 +4,14 @@ I had some problems with `.gitignore` to ignore the files, because they were alr
 also deleted the whole `src/` directory so I ended up opening the spring init project again and create a new repo. Then I 
 run `mvn clean install` when I had committed `.gitignore` so that it would detect the files it should 
 be ignoring, but there were still some untracked files. I ended up committing all the files and then use 
-`git rm -r --cached . ` to get git to forget all the files committed in this commit. Then afterwards when I ran `git status` 
-the files to be ignored were no longer "untracked", and I could add the other files to the repo.   
+`git rm -r --cached . ` to get git to forget all the files committed in this commit, but it did not work. 
 
+I did not get the "/hello?name=myName" to work properly, I got the message: `% curl localhost:8080/hello?name=world   
+zsh: no matches found: localhost:8080/hello?name=world`
+but it workes fine without the requestparameter: ` % curl localhost:8080/hello
+  Hello World!%  `                                                                            
+
+                                                                         
 
 [Repo for experiment](https://github.com/JennStro/spring-boot-experiment)
 
