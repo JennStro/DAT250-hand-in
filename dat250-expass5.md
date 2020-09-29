@@ -27,4 +27,4 @@ When trying to run the application with JPA and Derby I got this error:
 
 I do get some warnings but the application is running ok.    
 
-[Spring boot experiment](https://github.com/JennStro/spring-boot-experiment.git) 
+[Spring boot experiment](https://github.com/JennStro/spring-boot-experiment) 
