@@ -11,6 +11,12 @@ zsh: no matches found: localhost:8080/hello?name=world`
 but it workes fine without the requestparameter: ` % curl localhost:8080/hello
   Hello World!%  `                                                                            
 
+
+I installed the Spring Commandline Integration using homebrew:    
+``$ brew tap pivotal/tap``   
+``$ brew install springboot``   
+in order to run the Groovy app. 
+
                                                                          
 
 [Repo for experiment](https://github.com/JennStro/spring-boot-experiment)
