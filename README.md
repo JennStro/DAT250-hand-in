@@ -11,3 +11,5 @@
 [Software Technology Experiment 5](dat250-expass5.md)   
 
 [Software Technology Experiment 6](dat250-expass6.md)   
+
+[Software Technology Experiment 7](dat250-expass7.md)   
